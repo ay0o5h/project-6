@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start nav */
+.uk-logo {
+    position: relative;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.uk-logo span {
+    color: black;
+}
+.uk-card-primary.uk-card-body .uk-navbar-toggle,
+ .uk-card-primary>:not([class*=uk-card-media]) .uk-navbar-toggle,
+  .uk-card-secondary.uk-card-body .uk-navbar-toggle, .uk-card-secondary>:not([class*=uk-card-media])
+   .uk-navbar-toggle, .uk-light .uk-navbar-toggle, .uk-offcanvas-bar .uk-navbar-toggle,
+    .uk-overlay-primary .uk-navbar-toggle, .uk-section-primary:not(.uk-preserve-color) .uk-navbar-toggle,
+    .uk-section-secondary:not(.uk-preserve-color) .uk-navbar-toggle, .uk-tile-primary:not(.uk-preserve-color)
+    .uk-navbar-toggle, .uk-tile-secondary:not(.uk-preserve-color) .uk-navbar-toggle {
+    color: black;
+    position: relative;
+    right: 50%;
+}
+#p {
+    width: 140px;
+  height: 20px;
+  border-block-end-style: solid;
+}
+.header h3 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header .uk-button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 7px;
+    font-size: 10px;
+}
+/* end nav */
+/* start begning */
+.begning .uk-button {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 2px;
+    border-color: black;
+}
+.begning .uk-button:hover {
+    background-color: black;
+    color: aliceblue
+}
+.begning h3 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* end our begning */
+/* start portfolio */
+.portfolio .uk-section h3 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portfolio .uk-section  .active {
+   background-color: #000000;
+   color: aliceblue;
+}
+.portfolio .uk-section p {
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.portfolio .uk-section .uk-button {
+    border: 1px solid black;
+}
+.portfolio .uk-section img {
+    height:200px;
+    width: 50px;;
+}
+/* end portfolio */
+/* stat overlay */
+.box {
+    margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  background-color:black;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+.fa-quote-right {
+    background-color: antiquewhite;
+    color: #000000;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 10px;
+}
+/* end overlay */
+/* start about us */
+.about h3  {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+.about h4  {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+.about p {
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: capitalize;
+      font-size: 15px;
+}
+/* end about us */
+/* start search */
+.search h4 {
+    color: rgb(250, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search .uk-button {
+    background-color: aliceblue;
+    color: #000000;
+    border-radius: 2px;
+}
+.search .uk-button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
+.search input {
+    border :1px solid white;
+    color: white;
+    width: 30%;
+}
+/* end search */
+/* start contact us */
+.contact h3 {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.contact p {
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.contact i {
+    color: #000000;
+    font-size: 30px;
+}
+.contact input {
+    border:2px solid black;
+}
+.contact textarea {
+    border:2px solid black;
+}
+.contact .uk-button {
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 2px
+}
+.contact .uk-button:hover {
+    background-color: aliceblue;
+    color: #000000;
+}
+/* end conact us */
+/* start footer */
+ .footer .fa-circle {
+    color: white;
+    font-size: 40px;
+}
+.footer i {
+    color: white;
+    font-size: 20px;
+    margin: 1%;
+}
+/* end footer */
